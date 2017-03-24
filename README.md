@@ -89,3 +89,14 @@ H:\rover\rover-self-work\todo\admin4n-master
 
 redis 工作队列
 https://github.com/golzalo/live-streaming
+
+
+
+## tools
+
+### tools/sqlite
+
+```
+sqlite3.exe --version
+3.15.1 2016-11-04 12:08:49 1136863c76576110e710dd5d69ab6bf347c65e36
+```

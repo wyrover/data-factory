@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS pdo_test;  
+CREATE DATABASE pdo_test CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE pdo_test;  
+
+CREATE TABLE `blog` (
+  `id` INTEGER(11) NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(255) COLLATE utf8_general_ci NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`)
+
+)ENGINE=InnoDB
+AUTO_INCREMENT=1 CHARACTER SET 'utf8' COLLATE 'utf8_general_ci';
