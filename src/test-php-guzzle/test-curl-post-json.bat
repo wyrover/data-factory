@@ -1,0 +1,1 @@
+curl -X POST -H 'Content-Type: application/json' -d '{"username":"davidwalsh","password":"something"}' http://your-domain.com/page.php
